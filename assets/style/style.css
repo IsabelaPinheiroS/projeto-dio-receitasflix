@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 75, 75);
+}
+
+header .logo {
+    color: rgb(75, 75, 75);
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+    margin-left: 3px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: gray;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+header .conteiner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    width: 100%;
+    padding: 16px;
+	text-align: center;
+	font-weight: 400;
+    color: rgb(75, 75, 75);
+    background-color: grey;
+}
+
+section h2 {
+    color: rgb(75, 75, 75);
+    padding-top: 50px;
+    padding-bottom: 1px;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.item h5 {
+    background-color: rgba(128, 128, 128, 0.349);
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 3px;
+}
+
+.conteiner {
+    margin-left: 20px;
+}
+
+.receita-destaque .conteiner {
+    width: 70%;
+}
+
+/*Receita destaque*/
+.receita-destaque {
+    background: url('/assets/img/capa.jpg');
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 30px;
+}
+
+.receita-destaque .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: large;
+}
+
+.titulo {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Box e carousel*/
+.box-receita { 
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carousel-receitas {
+    margin-top: 10px;
+}
+
+.botoes .botao {
+    background-color:gray;
+    border: none;
+    border-radius: 40px;
+    
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botoes .botao a{
+    text-decoration: none;
+    color: white;
+    transition: .3s ease all;
+}
+.botao:hover {
+    background-color: white;
+    color: gray;
+}
+
+.botao:hover a {
+    background-color: white;
+    color: gray;
+}
+
+.botao i {
+    margin-right: 6px;
+}
+
+#infoAdd, #fechar {
+    background-color:gray;
+    border: none;
+    border-radius: 40px;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+#fechar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#textoModal {
+    font-size: 15px;
+}
+
+.doces, .massas, .carnes, .paes, .drinks {
+    padding-top: 20px;
+    color: rgb(75, 75, 75);
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    margin-left: 3px;
+    text-align: center;
+}
+
+.margin h5 {
+    background-color: rgba(128, 128, 128, 0.349);
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 3px;
+}
